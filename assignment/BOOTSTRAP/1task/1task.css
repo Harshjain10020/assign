@@ -1,0 +1,47 @@
+:root {
+    --row-height: 50px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/* Title Bar */
+.ttl {
+    background-color: blue;
+    color: white;
+    height: var(--row-height);
+}
+
+/* Navigation Bar */
+.nav {
+    background-color: rgb(111, 111, 111);
+    padding: 10px 0;
+}
+
+/* Content Section */
+.content {
+    text-align: center;
+    background-color: #f8f9fa; /* Light background for contrast */
+    min-height: 80vh;
+}
+
+/* Sidebar */
+.c2 {
+    text-align: center;
+    background-color: rgb(149, 149, 149);
+    color: white;
+    min-height: 80vh;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .content {
+        min-height: 60vh;
+    }
+    .c2 {
+        min-height: 20vh;
+    }
+}
